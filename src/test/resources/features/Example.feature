@@ -5,6 +5,9 @@ Feature: API Test
     Then I should get a <responsecode> response code from Connection Service
     And test
 
+
+    # comment for test
+
     Examples:
       |url                   |responsecode|
       |https://jsonplaceholder.typicode.com/posts    |200|
